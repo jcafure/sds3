@@ -21,7 +21,7 @@ const DonnutsChart = () => {
             setChartData({labels: myLabels, series: mySeries});
             console.log(chardData);
         });
-    }, []);
+    });
 
     const options = {
         legend: {

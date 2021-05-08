@@ -1,4 +1,3 @@
-import { type } from 'node:os';
 import { useState, useEffect} from 'react';
 import axios from 'axios';
 import {BASE_URL} from 'utils/requests';
@@ -56,7 +55,7 @@ const BarChart = () => {
             
             console.log(chardData);
         });
-    }, []);
+    });
 
 
     const options = {
